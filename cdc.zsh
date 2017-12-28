@@ -1,14 +1,7 @@
-#  ABOUT THIS FILE.
-#  These are functions that cannot be in a subshell, and therefor cannot
-#+ be put into a standalone script. DO NOT put anything in here that COULD
-#+ be a script. NOTE that if you were to have an "exit" anywhere in the funciton,
-#+ it would literally close the terminal. Again, this is due to this NOT running
-#+ in a subshell. This is MUCH more difficult to do without breaking it than
-#+ it sounds.
-
-#===============================================================================
-#@ begin function cdc()
-#===============================================================================
+# Function to quickly switch to common directories. This won't be useful to
+# anyone but me, but you can change it to be useful to you. NOTE that this does 
+# NOT run in a subshell, so any `exit` command will close the shell. Use
+# `return` instead.
 
 cdc() {
 
