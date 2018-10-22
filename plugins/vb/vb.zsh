@@ -32,8 +32,8 @@ vb() {
             echo "Switching to box [$box]"
             ;;
         *)
-            [[ -n "$cmd" ]] && echo "Invalid command [$cmd]"
-            echo "Available commands are:"
+            [[ -n "$cmd" ]] && echo "Invalid argument [$cmd]"
+            echo "Available arguments are:"
             echo "    up"
             echo "    ssh"
             echo "    halt"
