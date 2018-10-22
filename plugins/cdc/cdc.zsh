@@ -1,5 +1,5 @@
 # Function to quickly switch to common directories. This won't be useful to
-# anyone but me, but you can change it to be useful to you. NOTE that this does 
+# anyone but me, but you can change it to be useful to you. NOTE that this does
 # NOT run in a subshell, so any `exit` command will close the shell. Use
 # `return` instead.
 

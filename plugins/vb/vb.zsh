@@ -4,7 +4,7 @@
 vb() {
     local box
     local cmd="$1"
-    local cache="$ZSH/cache/vb.cache"
+    local cache="$ZSH_CACHE_DIR/vb.cache"
     local wf_dir="$HOME/workflow/"
     local boxes=(vagrant-{ique,dotcom})
     local current_vagrant_box=$( cat $cache )
