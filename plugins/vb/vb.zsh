@@ -16,29 +16,30 @@ vb() {
         list)
             for box in ${boxes[@]}; do
                 if [[ $box == $current_vagrant_box ]]; then
-                    echo "* $box"
+                    print "* $box"
                 else
-                    echo "  $box"
+                    print "  $box"
                 fi
             done
             ;;
         switch)
             case $current_vagrant_box in
-                vagrant-ique)   box=vagrant-dotcom       ;;
-                vagrant-dotcom) box=vagrant-ique         ;;
-                *) echo "[CURRENT_VAGRANT_BOX] not set!" ;;
+                vagrant-ique)   box=vagrant-dotcom        ;;
+                vagrant-dotcom) box=vagrant-ique          ;;
+                *) print "[CURRENT_VAGRANT_BOX] not set!" ;;
             esac
-            echo $box > $cache
-            echo "Switching to box [$box]"
+            print $box > $cache
+            print "Switching to box [$box]"
             ;;
         *)
-            [[ -n "$cmd" ]] && echo "Invalid argument [$cmd]"
-            echo "Available arguments are:"
-            echo "    up"
-            echo "    ssh"
-            echo "    halt"
-            echo "    list"
-            echo "    switch"
+            [[ -n "$cmd" ]] && print "Invalid argument [$cmd]"
+            print "Available arguments are:"
+            print " - up"
+            print " - ssh"
+            print " - halt"
+            print " - list"
+            print " - switch"
+            return 1
             ;;
     esac
 }
