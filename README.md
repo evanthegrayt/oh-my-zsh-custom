@@ -15,7 +15,7 @@ git clone --recursive https://github.com/evanthegrayt/oh-my-zsh-custom.git $ZSH/
 ```
 
 # Features
-This repo mostly contains enhancements to zsh itself, like better
+This repo mostly contains enhancements to `zsh` itself, like better
 tab-completion, terminal syntax highlighting, history substring search, and
 autosuggestions. I do have some plugins that I've written, which are probably
 only useful to me.
@@ -44,5 +44,7 @@ it...
 I have a couple of vagrant boxes, and instead of creating multiple aliases for
 dealing with them, this function will change which box it's dealing with by
 calling `vb switch`. From there, you can run `vb up` to bring up that box,
-`vb ssh` to ssh to the machine, etc.
+`vb ssh` to ssh to the machine, and a few other things. 
+
+This plugin also supports `zsh` tab-completion.
 
