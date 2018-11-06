@@ -5,7 +5,7 @@ cdc() {
 
     local dir
     local cd_dir="$1"
-    local USAGE="cdc: [DIRECTORY]"
+    local USAGE="$0: [DIRECTORY]"
 
     if (( ${#REPO_DIRS[@]} == 0 )); then
         print "You must \`export REPO_DIRS=()\`!"
