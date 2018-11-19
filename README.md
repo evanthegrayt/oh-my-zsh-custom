@@ -10,8 +10,8 @@ first, or just copy the files you want from here. Make sure to use the
 would you be cloning this repository?
 
 ```bash
-rm -rf $ZSH/custom
-git clone --recursive https://github.com/evanthegrayt/oh-my-zsh-custom.git $ZSH/custom
+rm -rf $ZSH_CUSTOM
+git clone --recursive https://github.com/evanthegrayt/oh-my-zsh-custom.git $ZSH_CUSTOM
 ```
 
 # Features
@@ -44,7 +44,7 @@ it...
 I have a couple of vagrant boxes, and instead of creating multiple aliases for
 dealing with them, this function will change which box it's dealing with by
 calling `vb switch`. From there, you can run `vb up` to bring up that box,
-`vb ssh` to ssh to the machine, and a few other things. 
+`vb ssh` to ssh to the machine, and a few other things.
 
 This plugin also supports `zsh` tab-completion.
 
