@@ -8,10 +8,10 @@ cdc() {
     local USAGE="$0: [DIRECTORY]"
 
     if (( ${#REPO_DIRS[@]} == 0 )); then
-        print "You must \`export REPO_DIRS=()\`!"
-        return 1
+        (>&2 print "You must \`export REPO_DIRS=()\`!")
+        return 2
     elif (( $# != 1 )); then
-        print $USAGE
+        (>&2 print $USAGE)
         return 1
     fi
 
@@ -22,11 +22,12 @@ cdc() {
                 return 0
             fi
         else
-            print "[$dir] is exported in \$REPO_DIRS, but it's not a directory!"
+            (>&2 print "[$dir] is exported in \$REPO_DIRS, " \
+                "but it's not a directory!")
         fi
     done
 
-    print "[$cd_dir] not found in ${REPO_DIRS[@]}"
-    return 1
+    (>&2 print "[$cd_dir] not found in ${REPO_DIRS[@]}")
+    return 2
 }
 
