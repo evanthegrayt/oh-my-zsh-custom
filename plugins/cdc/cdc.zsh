@@ -28,7 +28,7 @@ cdc() {
                     if [[ -d $subdir ]]; then
                         cd "$subdir"
                     else
-                        print "Directory [$subdir] does not exist in [$cd_dir]."
+                        print "[$subdir] does not exist in [$cd_dir]." >&2
                     fi
                 fi
                 return 0
