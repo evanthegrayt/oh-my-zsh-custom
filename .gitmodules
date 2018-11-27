@@ -7,3 +7,6 @@
 [submodule "plugins/zsh-history-substring-search"]
 	path = plugins/zsh-history-substring-search
 	url = https://github.com/zsh-users/zsh-history-substring-search.git
+[submodule "plugins/cdc"]
+	path = plugins/cdc
+	url = https://github.com/evanthegrayt/cdc.git
