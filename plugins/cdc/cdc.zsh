@@ -1,6 +1,5 @@
 # `cd` to my repos in my repo directories. I decided to do this, rather than
 # adding to $CDPATH, because I don't like changing the default `cd` behavior.
-# Not only so, but a lot of the repositories have the same
 
 cdc() {
 
