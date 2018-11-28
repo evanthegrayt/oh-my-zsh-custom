@@ -21,9 +21,10 @@ autosuggestions. I do have some plugins that I've written, which are probably
 only useful to me.
 
 ### cdc [directory]
-I have a few directories in which I clone repositories. This function will
-change directory to the passed arguement, no matter which directory it's in,
-complete with tab-completion for its arguments.
+I have a few directories in which I clone repositories. [This
+function](https://github.com/evanthegrayt/cdc) will change directory to the
+passed arguement, no matter which directory it's in, complete with
+tab-completion for its arguments.
 
 To use this feature, you need to export `REPO_DIRS` as an environmental
 variable. It should be an array with absolute paths to the directories to
