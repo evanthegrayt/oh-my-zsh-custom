@@ -10,3 +10,6 @@
 [submodule "plugins/cdc"]
 	path = plugins/cdc
 	url = https://github.com/evanthegrayt/cdc.git
+[submodule "plugins/vb"]
+	path = plugins/vb
+	url = https://github.com/evanthegrayt/vagrant-box-switcher.git
