@@ -49,3 +49,8 @@ calling `vb switch`. From there, you can run `vb up` to bring up that box,
 
 This plugin also supports `zsh` tab-completion.
 
+## Reporting bugs
+This mostly just contains plugins as submodules, so there really shouldn't be
+much to improve or fix, but if you find something, please [submit an
+issue](https://github.com/evanthegrayt/oh-my-zsh-custom/issues/new).
+
