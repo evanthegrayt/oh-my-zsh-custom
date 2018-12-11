@@ -16,3 +16,9 @@
 [submodule "themes/grayt-zsh-theme"]
 	path = themes/grayt-zsh-theme
 	url = https://github.com/evanthegrayt/grayt-zsh-theme.git
+[submodule "plugins/fast-syntax-highlighting"]
+	path = plugins/fast-syntax-highlighting
+	url = https://github.com/zdharma/fast-syntax-highlighting.git
+[submodule "plugins/history-search-multi-word"]
+	path = plugins/history-search-multi-word
+	url = https://github.com/zdharma/history-search-multi-word.git
