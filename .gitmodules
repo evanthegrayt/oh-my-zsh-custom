@@ -22,3 +22,6 @@
 [submodule "plugins/history-search-multi-word"]
 	path = plugins/history-search-multi-word
 	url = https://github.com/zdharma/history-search-multi-word.git
+[submodule "themes/powerlevel9k"]
+	path = themes/powerlevel9k
+	url = https://github.com/bhilburn/powerlevel9k.git
