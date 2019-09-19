@@ -22,3 +22,6 @@
 [submodule "plugins/omz-git"]
 	path = plugins/omz-git
 	url = https://github.com/tnwinc/omz-git.git
+[submodule "plugins/bd"]
+	path = plugins/bd
+	url = git@github.com:Tarrasch/zsh-bd.git
