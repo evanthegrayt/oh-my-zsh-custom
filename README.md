@@ -35,3 +35,8 @@ This mostly just contains plugins as submodules, so there really shouldn't be
 much to improve or fix, but if you find something, please [submit an
 issue](https://github.com/evanthegrayt/oh-my-zsh-custom/issues/new).
 
+## Self-Promotion
+I do these projects for fun, and I enjoy knowing that they're helpful to people.
+Consider starring [the
+repository](https://github.com/evanthegrayt/oh-my-zsh-custom) if you like it! If
+you love it, follow me [on github](https://github.com/evanthegrayt)!
