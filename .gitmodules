@@ -16,9 +16,6 @@
 [submodule "plugins/fast-syntax-highlighting"]
 	path = plugins/fast-syntax-highlighting
 	url = https://github.com/zdharma/fast-syntax-highlighting.git
-[submodule "plugins/history-search-multi-word"]
-	path = plugins/history-search-multi-word
-	url = https://github.com/zdharma/history-search-multi-word.git
 [submodule "plugins/omz-git"]
 	path = plugins/omz-git
 	url = https://github.com/tnwinc/omz-git.git
@@ -28,3 +25,6 @@
 [submodule "plugins/zsh-completions"]
 	path = plugins/zsh-completions
 	url = https://github.com/zsh-users/zsh-completions.git
+[submodule "plugins/history-search-multi-word"]
+	path = plugins/history-search-multi-word
+	url = https://github.com/zdharma-continuum/history-search-multi-word.git
