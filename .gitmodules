@@ -15,7 +15,7 @@
 	url = https://github.com/evanthegrayt/grayt-zsh-theme.git
 [submodule "plugins/fast-syntax-highlighting"]
 	path = plugins/fast-syntax-highlighting
-	url = https://github.com/zdharma/fast-syntax-highlighting.git
+	url = https://github.com/zdharma-continuum/fast-syntax-highlighting.git
 [submodule "plugins/omz-git"]
 	path = plugins/omz-git
 	url = https://github.com/tnwinc/omz-git.git
