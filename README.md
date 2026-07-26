@@ -20,8 +20,9 @@ tab-completion, terminal syntax highlighting, history substring search, and
 autosuggestions.
 
 ### Plugins
-- [CDC](https://github.com/evanthegrayt/cdc) - Quickly cd to repositories.
-- [Vagrant Box Wrapper](https://github.com/evanthegrayt/vagrant-box-wrapper)
+- [cdc](https://github.com/evanthegrayt/cdc) - Quickly cd to repositories.
+- [exed](https://github.com/evanthegrayt/exed) - Edit and create  executables in your path.
+- [vb](https://github.com/evanthegrayt/vagrant-box-wrapper)
 - [Fast Syntax Highlighting](https://github.com/zdharma/fast-syntax-highlighting)
 - [History Search Multi Word](https://github.com/zdharma/history-search-multi-word)
 - [OMZ-Git](https://github.com/tnwinc/omz-git) - Shorten branch name in prompt.

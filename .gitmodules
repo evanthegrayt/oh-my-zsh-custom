@@ -28,3 +28,6 @@
 [submodule "plugins/history-search-multi-word"]
 	path = plugins/history-search-multi-word
 	url = https://github.com/zdharma-continuum/history-search-multi-word.git
+[submodule "plugins/exed"]
+	path = plugins/exed
+	url = https://github.com/evanthegrayt/exed.git
