@@ -31,3 +31,6 @@
 [submodule "plugins/exed"]
 	path = plugins/exed
 	url = https://github.com/evanthegrayt/exed.git
+[submodule "plugins/zsh-ref-fresh"]
+	path = plugins/zsh-ref-fresh
+	url = https://github.com/evanthegrayt/zsh-ref-fresh
